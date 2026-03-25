@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inferential Statistics Notes</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #e6edf3;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #58a6ff;
+        }
+        .box {
+            background: #161b22;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        code {
+            background: #21262d;
+            padding: 4px 6px;
+            border-radius: 5px;
+            color: #f778ba;
+        }
+    </style>
+</head>
+<body>
+
+<h1>📊 Inferential Statistics - Notes</h1>
+
+<div class="box">
+<h2>1. Definition</h2>
+<p>Inferential statistics is used to draw conclusions about a population using sample data.</p>
+<p><b>Example:</b> Survey 1000 voters to predict election results.</p>
+</div>
+
+<div class="box">
+<h2>2. Why We Need It</h2>
+<ul>
+<li>Population data is large or unavailable</li>
+<li>Helps in predictions and decision-making</li>
+</ul>
+<p><b>Example:</b> Testing app feature on 200 users instead of all users.</p>
+</div>
+
+<div class="box">
+<h2>3. Techniques</h2>
+
+<h3>(A) Confidence Interval</h3>
+<p><code>CI = x̄ ± Z(α/2) × (σ / √n)</code></p>
+<p>Gives a range where the true value lies.</p>
+<p><b>Example:</b> Height = 170 → CI = (168, 172)</p>
+
+<h3>(B) Hypothesis Testing</h3>
+<ul>
+<li>H₀: No effect</li>
+<li>H₁: Has effect</li>
+<li>If p-value &lt; 0.05 → Reject H₀</li>
+</ul>
+<p><b>Example:</b> p = 0.03 → New algorithm is better</p>
+
+<h3>(C) Central Limit Theorem</h3>
+<p><code>X̄ ~ N(μ, σ/√n)</code></p>
+<p>Sample mean becomes normal for large samples.</p>
+
+</div>
+
+<div class="box">
+<h2>4. Errors</h2>
+<ul>
+<li><b>Type I Error:</b> Reject true H₀ (False Positive)</li>
+<li><b>Type II Error:</b> Accept false H₀ (False Negative)</li>
+</ul>
+<p><b>Power:</b> 1 − β</p>
+</div>
+
+<div class="box">
+<h2>5. Tests</h2>
+
+<h3>Parametric</h3>
+<ul>
+<li>Z-test</li>
+<li>T-test</li>
+<li>ANOVA</li>
+</ul>
+
+<h3>Non-Parametric</h3>
+<ul>
+<li>Chi-Square</li>
+<li>Mann-Whitney</li>
+</ul>
+
+</div>
+
+<div class="box">
+<h2>6. Real-Life Example</h2>
+<p>Check if new delivery algorithm is faster:</p>
+<ul>
+<li>H₀: No improvement</li>
+<li>H₁: Faster</li>
+<li>If p-value &lt; 0.05 → Better algorithm</li>
+</ul>
+<p><b>Example:</b> Saves 2–5 minutes delivery time</p>
+</div>
+
+<div class="box">
+<h2>🎯 Summary</h2>
+<p>Use sample data to make population-level decisions with probability.</p>
+</div>
+
+</body>
+</html>
